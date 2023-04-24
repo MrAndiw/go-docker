@@ -1,4 +1,4 @@
-# HOW TO CREATE & DEPLOY IMAGE TO DOCKER | Golang
+# HOW TO CREATE & DEPLOY GOLANG TO DOCKER
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
