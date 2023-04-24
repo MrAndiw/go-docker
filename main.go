@@ -43,7 +43,6 @@ func GetStudent(c echo.Context) error {
 		ID        int
 		Firstname string
 	}
-	fmt.Println("db :", db)
 
 	var result Result
 	res := db.Table("students").Select("id", "firstname").Where("id = ?", id).Scan(&result)

@@ -21,6 +21,7 @@ RUN go mod download
 RUN go mod verify
 
 #CMD go build -v
+# go build command with the -ldflags="-w -s" option to produce a smaller binary file by stripping debug information and symbol tables. 
 RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-w -s" -a -installsuffix cgo -o /go/bin/go-docker .
 
 #####################
